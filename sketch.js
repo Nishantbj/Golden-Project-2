@@ -6,6 +6,8 @@ var gameState,PLAY,END
 var bg,boyImg,boyStd,boy
 var startingPointImg,floatingIsland1,floatingIsland2
 var float1,float2,float3,float4,startingPoint
+var i = 0
+var j = 0
 
 function preload() {
   bg = loadImage("./Assets/bg.png");
